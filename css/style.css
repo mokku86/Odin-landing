@@ -5,6 +5,8 @@
 03 header & footer
 04 Hero / main banner
 05 Section: some random info
+06 Section: quote
+07 Section: CTA
 
 
 */
@@ -50,6 +52,9 @@ img{
     vertical-align: top;
     width: 100%;
 }
+p{
+    margin: 0;
+}
 
 
 /* ========== 02 Form, input & button ========== */
@@ -60,6 +65,11 @@ button{
     color: #fff;
     font-size: 20px;
     padding: 8px 20px;
+}
+.strokeBtn{
+    background: none;
+    border: solid 2px #fff;
+    color: #fff;
 }
 
 
@@ -89,6 +99,10 @@ header ul{
 header ul a{
     color: #E5E7E8;
     font-size: 18px;
+}
+footer{
+    color: #fff;
+    padding: 40px 0;
 }
 
 
@@ -146,4 +160,54 @@ header ul a{
 .thumb p{
     text-align: center;
 }
+
+
+
+
+/* ========== 06 Section: quote ========== */
+.quote{
+    background: var(--light-grey);
+    padding: 80px 0;
+}
+.quote figure{
+    padding: 0 40px; 
+}
+blockquote{
+    color: var(--dark);
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+figcaption{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+}
+
+
+
+
+
+/* ========== 07 Section: CTA ========== */
+.cta{
+    padding: 120px 0;
+}
+.blue-box{
+    align-items: center;
+    background: var(--blue);
+    border-radius: 20px;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+.blue-box h6, .blue-box p{
+    color: #fff;
+}
+.blue-box h6{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
 
